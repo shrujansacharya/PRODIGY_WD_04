@@ -1,0 +1,125 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa; /* Softer background color */
+    color: #333; /* Text color */
+}
+
+/* Header */
+header {
+    background-color: #34495e; /* New, modern color */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 2.8rem;
+}
+
+header .name {
+    color: #f39c12;
+}
+
+header p {
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+header .profile-photo {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* About Me Section */
+.about-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+.about-section ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.about-section ul li {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Documents Section (Offer Letter and Certificates) */
+.documents-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.documents-section h2 {
+    font-size: 2.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.documents-section img.document {
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
